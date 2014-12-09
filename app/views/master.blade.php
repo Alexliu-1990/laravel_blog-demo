@@ -57,7 +57,7 @@
 
 <div class="row">
 <div class="large-12 columns">
-<h1>Blog <small>This is my blog. It's awesome.</small></h1>
+<h1>Blog <small>This is my blog. </small></h1>
 <hr/>
 </div>
 </div>
@@ -73,25 +73,20 @@
 <hr/>
 <div class="row">
 <div class="large-6 columns">
-<p>&copy; Copyright no one at all. Go to town.</p>
+<p>&copy; Copyright.</p>
 </div>
 <div class="large-6 columns">
-<ul class="inline-list right">
-<li><a href="#">Link 1</a></li>
-<li><a href="#">Link 2</a></li>
-<li><a href="#">Link 3</a></li>
-<li><a href="#">Link 4</a></li>
+<ul class="inline-list right" id="imgIcon">
+<li><a href="#"><img src="{{asset('assets/img/twitter.png')}}"></a></li>
+<li><a href="#"><img src="{{asset('assets/img/facebook.png')}}"></a></li>
+<li><a href="#"><img src="{{asset('assets/img/email.png')}}"></a></li>
 </ul>
 </div>
 </div>
 </div>
 </footer>
 
-<script>
-  document.write('<script src=assets/js/vendor/' +
-  ('__proto__' in {} ? 'zepto' : 'jquery') +
-  '.js><\/script>')
-  </script>
+
 <script src="{{asset('assets/js/vendor/jquery.js')}}"></script>
 <script src="{{asset('assets/js/foundation.min.js')}}"></script>
 <script>
